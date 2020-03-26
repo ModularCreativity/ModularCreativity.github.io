@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
 <body>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+<script>
+
+ var config = {
+    apiKey: "AIzaSyBtUhVhSCNRFI_IF_Bg3qYCJips6wUVuWQ",
+    authDomain: "esp32test-a009d.firebaseio.com",
+    databaseURL: "https://esp32test-a009d.firebaseio.com",
+    projectId: "esp32test-a009d",
+    storageBucket: "esp32test-a009d.appspot.com",
+    messagingSenderId: "773629946730"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <h1>My First Heading</h1>
 
 <p>My first paragraph.</p>
+
+
+<input id="uploadFirmwareFile" type="file" style="display: none;">
 
 </body>
 </html>
